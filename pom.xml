@@ -12,18 +12,19 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
-
-    <scm>
+  <scm>
         <connection>scm:git:https://copado-jenkins@github.com/aaldeaCopado/copado-v2.git</connection>
         <developerConnection>scm:git:https://copado-jenkins@github.com/aaldeaCopado/copado-v2.git</developerConnection>
         <url>scm:https://github.com/aaldeaCopado/copado-v2.git</url>
         <tag>copado-job-4.1.4</tag>
     </scm>
+
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
 
   <dependencies>
     <dependency>
