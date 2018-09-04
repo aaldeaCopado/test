@@ -62,4 +62,15 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+        <snapshotRepository>
+            <id>copado-snapshots</id>
+            <url>https://front.copa.do/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>copado-release</id>
+            <url>https://front.copa.do/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
